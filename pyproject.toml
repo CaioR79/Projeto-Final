@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sistema organizacional para biblioteca"
+version = "0.1.0"
+description = "Um sistema para gerenciar livros em uma biblioteca, alinhado com funcionalidades para adicionar, remover e pesquisar livros, bem como para realizar o empréstimo e a devolução de livros."
+authors = ["Caio Reis <crado.ele21@uea.edu.br>", "Mariana Conceição" <mcb.ele21@uea.edu.br>, "Reginaldo Pimentel" <rjps.ele21@uea.edu.br>]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
